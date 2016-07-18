@@ -1,1 +1,4 @@
-echo 'hello from Pipeline'
+node {
+     echo 'hello from Pipeline'
+     sh 'ls -l'
+}
